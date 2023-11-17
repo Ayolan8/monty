@@ -8,7 +8,7 @@
  * @kounta: silent
  * Return: nothing
  */
-void pall_function(stack_t **head, unsigened int kounta)
+void pall_function(stack_t **head, unsigned int kounta)
 {
 	(void)kounta;
 	stack_t *temp;

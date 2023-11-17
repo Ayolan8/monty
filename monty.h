@@ -35,6 +35,6 @@ typedef struct instruction_s
 } instruction_t;
 
 void pushnode(stack_t **head, int n)
-void pall_function(stack_t **head, unsigened int kounta);
+void pall_function(stack_t **head, unsigned int kounta);
 
 #endif
