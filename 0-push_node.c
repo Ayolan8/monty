@@ -1,5 +1,5 @@
 #include "monty.h"
-#include <stdlib.o>
+#include <stdlib.h>
 #include <stdio.h>
 /*
  * pushnode - push to the stack and make it point to the head
@@ -7,7 +7,7 @@
  * @n: data to be pushed
  * Return: nothing
  */
-void pushnode(stack_t **head, int n)
+void push_node(stack_t **head, int n)
 {
 	stack_t *temp = *head;
 	stack_t *newNode = malloc(sizeof(stack_t));
