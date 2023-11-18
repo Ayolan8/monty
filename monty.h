@@ -34,5 +34,8 @@ typedef struct instruction_s
 void push_node(stack_t **head, int n);
 void pall_function(stack_t **head, unsigned int kounta);
 void 1-pint(stack_t **head, unsigned int kounta);
+void 2-pop(stack_t **head, unsigned int kounta);
+void swap_function(stack_t **head, unsigned int kounta);
+void add_func(stack_t **head, unsigned int kounta)
 
 #endif
