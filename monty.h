@@ -31,6 +31,23 @@ typedef struct instruction_s
         void (*f)(stack_t **stack, unsigned int line_number);
 } instruction_t;
 
+/**
+ * struct bus_s - variables -args, file, line content
+ * @arg: value
+ * @file: pointer to monty file
+ * @content: line content
+ * @lifi: flag change stack <-> queue
+ * Description: carries values through the program
+ */
+typedef struct comp_s
+{
+	char *args;
+	FILE *my_file;
+	char *contents;
+	int lif;
+}  comp_t;
+extern comp_t comp;
+
 void push_node(stack_t **head, int n);
 void pall_function(stack_t **head, unsigned int kounta);
 void 1-pint(stack_t **head, unsigned int kounta);
