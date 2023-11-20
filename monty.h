@@ -1,6 +1,14 @@
 #ifndef MONTY_H
 #define MONTY_H
 
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <string.h>
+#include <ctype.h>
+
 /**
  * struct stack_s - doubly linked list representation of a stack (or queue)
  * @n: integer
@@ -53,6 +61,21 @@ void pall_function(stack_t **head, unsigned int kounta);
 void 1-pint(stack_t **head, unsigned int kounta);
 void 2-pop(stack_t **head, unsigned int kounta);
 void swap_function(stack_t **head, unsigned int kounta);
-void add_func(stack_t **head, unsigned int kounta)
+void add_func(stack_t **head, unsigned int kounta);
+void nop_function(stack_t **head, unsigned int kounta);
+void sub_func(stack_t **head, unsigned int kounta);
+void div_func(stack_t **head, unsigned int kounta);
+void mul_func(stack_t **head, unsigned int kounta);
+void mod_func(stack_t **head, unsigned int kounta);
+void pchar_func(stack_t **head, unsigned int kounta);
+void pstr_func(stack_t **head, unsigned int kounta);
+void rotl_func(stack_t **head,  __attribute__((unused)) unsigned int kounta);
+void rotr_func(stack_t **head, __attribute__((unused)) unsigned int kounta);
+void queue_func(stack_t **head, unsigned int kounta);
+void addqueue_func(stack_t **head, int x);
+void stack_func(stack_t **head, unsigned int kounta);
+int execute(char *contents, stack_t **stack, unsigned int kounta, FILE *my_file);
+void free_stack(stack_t *head);
+
 
 #endif

@@ -1,12 +1,4 @@
 #include "monty.h"
-#include "monty.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <string.h>
-#include <ctype.h>
 
 /**
  * free_stack - program to delete a doubly linked list

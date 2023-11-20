@@ -1,11 +1,4 @@
 #include "monty.h"
-#include <stdio.h>
-#include <stdlib.h>
-#include <sys/types.h>
-#include <unistd.h>
-#include <fcntl.h>
-#include <string.h>
-#include <ctype.h>
 
 /**
  *rotr_func - rotates the stack to the bottom

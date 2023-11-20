@@ -1,5 +1,4 @@
 #include "monty.h"
-#include <stdio.h>
 /*
  *nop_function - nothing
  *@head: head of stack

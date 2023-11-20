@@ -1,6 +1,4 @@
 #include "monty.h"
-#include <stdlib.h>
-#include <stdio.h>
 /*
  * pushnode - push to the stack and make it point to the head
  * @head: head of the stack
